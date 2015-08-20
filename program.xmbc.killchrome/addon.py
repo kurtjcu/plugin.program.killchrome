@@ -14,6 +14,6 @@ xbmcgui.Dialog().ok(addonname, line1, line2, line3)
 
 
 try:
-	subprocess.call(['xdotool search --name chrome windowkill',shell=True])
+	subprocess.call(['xdotool search --name chrome windowkill'],shell=True)
 except:
     log('ERROR executing script killChrome')
