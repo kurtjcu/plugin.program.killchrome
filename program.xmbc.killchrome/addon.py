@@ -9,7 +9,7 @@ line1 = "Hello World!"
 line2 = "We will now destroy chrome"
 line3 = "Using Python to run a command in shell"
  
-xbmcgui.Dialog().ok(addonname, line1, line2, line3)
+#xbmcgui.Dialog().ok(addonname, line1, line2, line3)
 
 
 
